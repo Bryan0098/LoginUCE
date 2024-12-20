@@ -1,0 +1,104 @@
+/* Estilo general para la página */
+body {
+    font-family: "PT Serif Caption";
+    font-style: normal;
+    font-weight: 400;
+    background-color: #f4f7f6;
+}
+
+
+/* Asegura que ocupe toda la altura de la pantalla */
+.full-height {
+    min-height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ajustar el tamaño del encabezado */
+.header-text {
+    font-size: 1.5rem; /* Tamaño de texto más pequeño */
+}
+
+.header-subtext {
+    font-size: 1.2rem; /* Tamaño de texto más pequeño */
+}
+
+/* Bordes a los inputs */
+.input-border {
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+}
+
+/* Igualar tamaño de botones */
+.btn-size {
+    width: 100%;
+}
+
+/* Color del placeholder */
+.form-control::placeholder {
+    color: lightgray;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    position: absolute;
+    top: 12rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 400px;
+    height: 340px;
+    border-radius: 10px;
+    background: rgba(3, 3, 3, .2);
+    box-shadow: 8px 10px 20px rgba(3, 3, 3, .6);
+}
+
+/* Fondo del card de login */
+.card {
+    width: 100%;
+    background-color: transparent;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+/* Estilo para el texto en el card */
+h1 {
+    color: rgb(48, 37, 29);
+    text-align: center;
+}
+
+/* Personalización de los inputs */
+.form-control {
+    background-color: #b73434;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+/* Botones */
+.btn {
+    border-radius: 50px;
+    font-size: 1rem;
+    padding: 12px;
+}
+
+/* Botón de Login */
+.btn-primary {
+    background-color: rgb(1, 70, 112);
+    border: none;
+}
+
+/* Botón de Simulador */
+.btn-success {
+    background-color: rgb(1, 70, 112);
+    border: none;
+}
+
+/* Logo */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
